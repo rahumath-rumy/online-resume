@@ -1,23 +1,35 @@
-import logo from './logo.svg';
+import React from 'react';
+// import { Component } from 'react';
 import './App.css';
+import Navbar from './Components/Navbar';
+import Intro from './Components/intro';
+import './css/main.css'
+import bgImage from "././image/bg1.png"
+// import mainpg from './pages/mainpage';
+//import{BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+//simple javascript code
+   return( // can have only 1 parent tag (div)
+    <div>
+      <Navbar/>
+      <div style={{ backgroundImage: `url(${bgImage})`, backgroundSize: 'cover'}}>
+       <Intro/>
+       <div>
+       hjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkggggggggggggggg
+         lllllllllllllllllllllllllllllllllllllllllllhjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkggggggggggggggg
+         lllllllllllllllllllllllllllllllllllllllllllhjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkggggggggggggggg
+         lllllllllllllllllllllllllllllllllllllllllllhjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkggggggggggggggg
+         lllllllllllllllllllllllllllllllllllllllllllhjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkggggggggggggggg
+         lllllllllllllllllllllllllllllllllllllllllllhjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkggggggggggggggg
+         lllllllllllllllllllllllllllllllllllllllllllhjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkggggggggggggggg
+         lllllllllllllllllllllllllllllllllllllllllllhjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkggggggggggggggg
+         lllllllllllllllllllllllllllllllllllllllllllhjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkggggggggggggggg
+         lllllllllllllllllllllllllllllllllllllllllllhjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkggggggggggggggg
+         lllllllllllllllllllllllllllllllllllllllllll
+       </div>
+  </div>
     </div>
   );
 }
