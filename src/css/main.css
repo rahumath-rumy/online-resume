@@ -1,3 +1,82 @@
-.container1 {
-  background-image: url("../image/bgimage.png");
+* {
+  font-family: "Crimson Pro", san-serif;
+}
+
+h1 {
+  color: #ee6c4d;
+  font-size: 42px;
+  padding-left: 20px;
+  margin-top: -12px;
+}
+
+h2 {
+  font-size: 28px;
+  padding-left: 20px;
+}
+
+p {
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+button {
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 2px solid #ee6c4d;
+  border-radius: 30px;
+  color: #ee6c4d;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  line-height: 1;
+  margin: 0px 0px 0px 80px;
+  padding: 1.2em 2.8em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+button:hover {
+  color: white;
+  background-color: #ee6c4d;
+  transition: width 150ms ease-in-out;
+  z-index: -1;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  * {
+    padding-left: -60px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 8px;
+  }
+
+  button {
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 2px solid #ee6c4d;
+    border-radius: 20px;
+    color: #ee6c4d;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 0.5rem;
+    line-height: 1;
+    margin: 0px 0px 0px 80px;
+    padding: 1.2em 2.8em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
 }
