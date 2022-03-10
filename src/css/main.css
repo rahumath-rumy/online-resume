@@ -44,6 +44,28 @@ button:hover {
   z-index: -1;
 }
 
+.social-container {
+  padding: 180px 0px 10px 720px;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-3px);
+}
+
+a.linkedin,
+a.github,
+a.mail,
+a.tele {
+  color: #303030;
+  font-size: x-large;
+}
+
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   * {
@@ -78,5 +100,19 @@ button:hover {
     text-align: center;
     text-transform: uppercase;
     font-weight: 700;
+  }
+
+  .social-container {
+    padding: 30px 0px 5px 250px;
+    display: flex;
+  }
+
+  a.linkedin,
+  a.github,
+  a.mail,
+  a.tele {
+    color: #303030;
+    font-size: 7px;
+    margin-right: 2px;
   }
 }

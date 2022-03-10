@@ -1,14 +1,15 @@
 import React from 'react';
-import styled from 'styled-components';
+//import styled from 'styled-components';
 import '../css/main.css';
 
-import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
-import { useLocation } from "react-router-dom";
+// import { Link } from "react-router-dom";
+// import { useLocation } from "react-router-dom";
 
-import github from "../image/github 1.png";
-import linkedin from "../image/linkedin 1.png";
-// import bgImage from "./../image/bg1.png"
+import { faPhone, faEnvelope} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons";
+
+
 
 const Intro = () => {
     return (
@@ -30,21 +31,33 @@ const Intro = () => {
                 <button> Download CV</button>
               </div>
 
+<div class="social-container">
+    <a href="www.linkedin.com/in/rahumath-rumy"
+      className="linkedin social">
+      <FontAwesomeIcon icon={faLinkedin}/>
+    </a>
+    
+    <a href="https://github.com/rahumath-rumy"
+        className="github social">
+        <FontAwesomeIcon icon={faGithub}/>
+    </a>
+    
+    
+    <a href="mailto:rahumath.rumy98@gmail.com"
+        className="mail social">
+        <FontAwesomeIcon icon={faEnvelope} />
+    </a>
+    
+    <a href="www.given/on/request"
+        className="tele social">
+        <FontAwesomeIcon icon={faPhone}/>
+    </a>
+    </div>
+
           </div>
-          
-           
-              <img alt="icon" src={linkedin} />
-              <img alt="icon" src={linkedin} />
-              <img alt="icon" src={linkedin} />
-              <img alt="icon" src={linkedin} />
-      
-          
+
         </intro>
     );
 };
-
-const intro = styled.img`
- padding: 10rem 10rem;
-`;
 
 export default Intro;

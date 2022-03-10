@@ -5,6 +5,8 @@ import Navbar from './Components/Navbar';
 import Intro from './Components/intro';
 import '././css/main.css'
 import bgImage from "././image/bg1.png"
+
+
 // import mainpg from './pages/mainpage';
 //import{BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
@@ -16,10 +18,9 @@ function App() {
       <Navbar/>
         <div style={{ backgroundImage: `url(${bgImage})`, backgroundSize: 'cover', marginLeft:"50px" }}>
           <Intro/>
+          
         <div>
-            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa <br/>
-            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa <br/>
-            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa <br/>
+           
             aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa <br/>
             aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa <br/>
             aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa <br/>
