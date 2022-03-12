@@ -15,7 +15,7 @@ const Intro = () => {
     return (
         <intro >
           <div className='intro'>
-            <h2> Hi, I'm </h2>
+            <h2 style={{textAlign:'left'}}> Hi, I'm </h2>
             <h1> Rahumath Rumy</h1>
             <p>
               I am a Computer Science undergraduate and I am 

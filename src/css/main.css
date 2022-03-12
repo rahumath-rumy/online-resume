@@ -12,6 +12,7 @@ h1 {
 h2 {
   font-size: 28px;
   padding-left: 20px;
+  margin-top: -22px;
 }
 
 p {
@@ -112,7 +113,7 @@ a.tele {
   a.mail,
   a.tele {
     color: #303030;
-    font-size: 7px;
+    font-size: 10px;
     margin-right: 2px;
   }
 }
