@@ -1,10 +1,6 @@
 import React from 'react';
 //import styled from 'styled-components';
 import '../css/main.css';
-
-// import { Link } from "react-router-dom";
-// import { useLocation } from "react-router-dom";
-
 import { faPhone, faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons";

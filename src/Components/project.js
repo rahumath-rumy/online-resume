@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import '../css/section.css';
-// import '../css/main.css';
 
 import tools from "../image/tools.png"
 
@@ -47,12 +46,13 @@ const Project = () => {
           </div> 
 
           <div>
-              <img src={tools} alt='tools' style={{marginLeft:'200px'}}></img>
+              <h2 className='title' style={{paddingTop:"500px"}}> Tools</h2>
+              <img src={tools} alt='tools' className='tool'></img>
           </div>
 
-          <div>
+          {/* <div>
               <img src={footer} alt='tools'></img>
-          </div>
+          </div> */}
 
 
           </div>

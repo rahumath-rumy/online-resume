@@ -4,10 +4,11 @@ import Navbar from './Components/Navbar';
 import Intro from './Components/intro';
 import Skill from './Components/devskill';
 import Project from './Components/project';
+import Footer from './Components/footer';
 import '././css/main.css'
 
 import bgImage from "././image/bg1.png"
-import tools from "././image/tools.png"
+
 
 
 function App() {
@@ -21,11 +22,11 @@ function App() {
        </div>
        <br></br>
           <Project/>
-          <div>
-            <div style={{ backgroundImage: `url(${{tools}})`, backgroundSize: 'cover', marginLeft:"50px" }}>
-              </div>
-</div>        
-    
+        <div>
+          <Footer/>
+        </div>
+      
+        
     </div>
   );
 }

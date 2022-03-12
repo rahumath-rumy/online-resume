@@ -1,12 +1,12 @@
-import React from "react";
-import intro from '../Components/intro'
+// import React from "react";
+// import intro from '../Components/intro'
 
-const mainpg = () => {
-    return(
-        <main>
-        <intro/>;
-        </main>
-    )
-}
+// const mainpg = () => {
+//     return(
+//         <main>
+//         <intro/>;
+//         </main>
+//     )
+// }
 
-export default mainpg;
+// export default mainpg;
