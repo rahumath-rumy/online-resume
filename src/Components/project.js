@@ -47,7 +47,7 @@ const Project = () => {
 
           <div>
               <h2 className='title' style={{paddingTop:"500px"}}> Tools</h2>
-              <img src={tools} alt='tools' className='tool'></img>
+                 <img src={tools} alt='tools' className='tool'></img>
           </div>
 
           {/* <div>

@@ -1,16 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useLocation } from "react-router-dom";
+import '../css/main.css';
 
 const Navbar = () => {
     return (
         <NavBar>
+          {/* tyle={{color: "#EE6C4D"}} */}
             <ul>
-                <li><a href="" style={{color: "#EE6C4D"}} > Home</a></li>
-                <li><a href=""> About Us</a></li>
-                <li><a href="">Contact</a></li>
+                <li><NavLink exact to= "/" className='nav' activeClassName='active-nav'> Home</NavLink></li>
+                <li><NavLink exact to="/about"  className='nav'  activeClassName='active-nav'> About Us</NavLink></li> 
+                <li><NavLink exact to="/contact" className='nav'  activeClassName='active-nav'>Contact</NavLink></li>
             </ul>
 
         </NavBar>
@@ -23,17 +25,22 @@ const NavBar = styled.nav`
     align-items:center;
     padding: 10rem 10rem; 
     font-family: 'Crimson Pro', san-serif;
-    a {
-        color:black;
-        text-decoration:none;
-        margin-top:1px;
-        padding-right:1rem;
-    }
-    
-    a:hover {
-        text-decoration:none;
-        color: #EE6C4D;
-    }
+
+    .nav {
+      color:black;
+      text-decoration:none;
+      margin-top:1px;
+      padding-right:1rem;
+  }
+  
+  .nav:hover {
+      text-decoration:none;
+      color: #EE6C4D;
+  }
+
+  .active-nav {
+    color: #ee6c4d;
+  }
 
     ul {
         display: flex;

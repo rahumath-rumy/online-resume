@@ -11,7 +11,7 @@ const Footer = () => {
     return (
         <footer>
           <div className="footer" style={{ backgroundImage: `url(${footer})`,  
-          backgroundSize: 'cover'}}> 
+          backgroundSize: 'cover'}} > 
             
               <h1 className='footerName'>Rahumath Rumy</h1>
                 
@@ -36,7 +36,7 @@ const Footer = () => {
                 </a>
 
                 <h5>
-                    © 2022 Designed by Safra Rifai & Developed by Rahumath Rumy. All Rights Reserved
+                    © 2022 Designed by Safra Rifai & Developed by Rahumath Rumy.All Rights Reserved
                 </h5>
     </div>
 
