@@ -13,7 +13,7 @@ function App() {
     <div>
       {/* <Home/> */}
       <Route exact path="/" activeStyle={{color: "red",textDecoration:"none"}} component={Home}/>
-      <Route exact path="/about" activeStyle={{color: "red",textDecoration:"none"}} component={About}/>
+      <Route exact path="/about" component={About}/>
       {/* <Route exact path="/" component={contact}/> */}
      
     </div>

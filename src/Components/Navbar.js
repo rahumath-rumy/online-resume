@@ -23,7 +23,8 @@ const NavBar = styled.nav`
     min-height : 3vh;
     display: flex;
     align-items:center;
-    padding: 10rem 10rem; 
+    padding: 50rem 50rem; 
+    margin-left: 100px;
     font-family: 'Crimson Pro', san-serif;
 
     .nav {

@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import '../css/section.css';
-// import '../css/main.css';
 
 
 const Skill = () => {

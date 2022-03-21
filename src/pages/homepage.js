@@ -9,8 +9,6 @@ import '../css/main.css'
 
 import bgImage from "../image/bg1.png"
 
-
-
 const Home = () => {
     return (
         <home>
@@ -20,15 +18,14 @@ const Home = () => {
         <div style={{ backgroundImage: `url(${bgImage})`, backgroundSize: 'cover', marginLeft:"50px" }}>
           <Intro/>
           <Skill/>
-       </div>
-       <br></br>
+        </div>
+            <br></br>
           <Project/>
         <div>
           <Footer/>
         </div>
-      
-        
     </div>
+    
     </home>
     );
 };

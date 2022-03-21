@@ -35,11 +35,10 @@ const Footer = () => {
                     <FontAwesomeIcon icon={faPhone}/>
                 </a>
 
-                <h5>
+                <h5 className='copyright'>
                     © 2022 Designed by Safra Rifai & Developed by Rahumath Rumy.All Rights Reserved
                 </h5>
-    </div>
-
+        </div>
         </footer>
         
     );

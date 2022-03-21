@@ -1,7 +1,7 @@
 import React from 'react';
 // import { Component } from 'react';
 import Navbar from '../Components/Navbar';
-import Intro from '../Components/intro';
+import Aboutme from '../Components/abtme';
 import Skill from '../Components/devskill';
 import Project from '../Components/project';
 import Footer from '../Components/footer';
@@ -15,11 +15,10 @@ const About= () => {
     <div>
       <Navbar/>
         {/* <div style={{ backgroundImage: `url(${bgImage})`, backgroundSize: 'cover', marginLeft:"50px" }}> */}
-          <Intro/>
-          <Skill/>
+      <Aboutme/>
+         
        </div>
-       <br></br>
-          <Project/>
+       
         <div>
           <Footer/>
         </div>
