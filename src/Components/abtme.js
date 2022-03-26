@@ -4,9 +4,8 @@ import '../css/section.css';
 import '../css/about.css';
 import timeline from './timeline';
 
- //import { ReactComponent as DIcon } from "../image/Degree.png";
-
-// import { ReactComponent as SchoolIcon } from "./school.svg"
+import { ReactComponent as WorkIcon } from "../image/work.svg";
+import { ReactComponent as SchoolIcon } from "../image/school.svg";
 
 import { VerticalTimeline, VerticalTimelineElement,} 
     from "react-vertical-timeline-component"
@@ -18,9 +17,9 @@ import right from "../image/rightdesign.png"
 import left from "../image/leftdesign.png"
 
 const AboutMe = () => {
-// let DIconStyles = { background: "#06D6A0" }
-//   let schoolIconStyles = { background: "#f9c74f" }
-  let icon = { background: "#06D6A0" }
+  let workIconStyles = { background: "#EE6C4D" };
+  let schoolIconStyles = { background: "#EE6C4D" };
+
     return (
         <aboutme>
             
@@ -41,39 +40,44 @@ const AboutMe = () => {
 
                   <img src={left} alt='design' className='design-left'></img>
 
-                  <h2 className='title' style={{marginTop:"-450px", paddingBottom:"100px"}} >Education</h2>
-            
-                  
-            
-
-            <VerticalTimeline  >
+                  <h2 className='title' style={{marginTop:"-450px", paddingBottom:"100px", marginBottom:"-80px"}} >Education</h2>
+          
+            <VerticalTimeline>
              {timeline.map(element => {
-          return (
+                 let isWorkIcon = element.icon === "work";
+        
+                 return (
             <VerticalTimelineElement 
               key={element.key}
-            //   date={element.year}
-
-            //   dateClassName="date"
-            // iconStyle={isDIcon ? DIconStyles : schoolIconStyles}
-            // icon={isDIcon ? <DIcon /> : <SchoolIcon />}
+            
+              iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
+              icon={isWorkIcon ? <WorkIcon /> : <SchoolIcon />}
             >
                
               <h3 className="vertical-timeline-element-title">
                 {element.title} <br/>
-                {element.year}
-                {/* {element.icon} */}
+
               </h3>
+
+              <h3 className="vertical-timeline-element-year">
+                     {element.year}
+              </h3>
+
               <h5 className="vertical-timeline-element-subtitle">
                 {element.institute}
               </h5>
-              <p id="description">
+
+              <h5 className="description">
                   {element.place}
-              </p>
+              </h5>
              
             </VerticalTimelineElement>
        )
         })}
       </VerticalTimeline>
+      </div>
+      <div>
+      <h2 className='title' style={{marginTop:"100px", paddingBottom:"100px", marginBottom:"-80px"}}> Certificate Courses</h2>
       </div>
         </aboutme>
     );

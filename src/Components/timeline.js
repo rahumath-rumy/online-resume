@@ -7,7 +7,7 @@ let timeline = [
     institute: "BCAS affiliated with Solent University,",
     place:"Southampton",
     year: "2021-2022",
-    icon: <img src={degree} alt='portrait' className='degree'></img>
+    icon: "school",
   },
   {
     id: 2,
@@ -15,6 +15,7 @@ let timeline = [
     institute: "American National College",
     place:"SQA",
     year: "2019-2020",
+    icon: "school",
   },
   {
     id: 3,
@@ -22,6 +23,7 @@ let timeline = [
     institute: "Ilma International Girls’ School",
     place:"Commerce Stream - A B C S",
     year: "2015-2018",
+    icon: "work",
   },
   {
     id: 4,
@@ -29,6 +31,7 @@ let timeline = [
     institute: "Ilma International Girls’ School",
     place:"4A 3B 2C ",
     year: "2013-2015",
+    icon: "work",
   },
   
 ]
