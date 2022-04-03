@@ -1,13 +1,11 @@
 import React from 'react';
-// import { Component } from 'react';
 import Navbar from '../Components/Navbar';
 import Aboutme from '../Components/abtme';
-import Skill from '../Components/devskill';
-import Project from '../Components/project';
+
 import Footer from '../Components/footer';
 import '../css/main.css'
 
-// import bgImage from "../image/bg1.png"
+
 
 const About= () => {
     return (
@@ -19,7 +17,7 @@ const About= () => {
          
        </div>
        
-        <div>
+        <div style={{marginTop:"-600px"}}>
           <Footer/>
         </div>
       

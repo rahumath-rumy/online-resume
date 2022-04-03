@@ -45,8 +45,8 @@
     0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
   box-shadow: 0 0.25em 0.5em 0 !important;
   /* padding: 2em 3em !important; */
-  margin-bottom: -80px;
-  background: #293241;
+  margin-bottom: 0px;
+  background: linear-gradient(98deg, #293241 0%, rgba(41, 50, 65, 0.75) 100%);
   border-radius: 0px 120px;
   text-align: center;
 }
@@ -69,10 +69,6 @@
   font-style: italic;
   color: #ee6c4d;
 }
-/* 
-.date {
-  color: rgb(201, 251, 255);
-} */
 
 .description {
   /* margin: 1.5em 0 2em 0; */
@@ -80,6 +76,119 @@
   font-size: 18px;
   font-style: italic;
   color: #ee6c4d;
+}
+
+/* Slider */
+
+.slider {
+  position: absolute;
+  margin-top: -100px;
+  margin-left: -100px;
+  width: 520px;
+  height: 280px;
+  left: 480px;
+  top: 2343px;
+  display: flex;
+  background: linear-gradient(
+    96.46deg,
+    #ee6c4d 3.43%,
+    rgba(238, 108, 77, 0.6) 100%,
+    rgba(238, 108, 77, 0.6) 100%
+  );
+  border-radius: 0px 30px 30px 0px;
+  font-family: "Crimson Pro", san-serif;
+}
+
+.cert {
+  position: absolute;
+  width: 242px;
+  height: 220px;
+  left: 30px;
+  margin-top: 30px;
+  background: white;
+  border-radius: 30px 30px 30px 0px;
+  align-items: center;
+}
+
+.cert-info {
+  margin-left: 240px;
+  color: #293241;
+  width: 222px;
+  height: 200px;
+  left: 30px;
+  margin-top: -180px;
+  color: #293241;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  /* align-items: center; */
+  text-align: left;
+  font-size: 20px;
+}
+
+.cert-info a {
+  padding-left: 40px;
+}
+
+.image {
+  width: 180px;
+  height: 180px;
+  border-radius: 10px;
+  padding: 20px 0 0 25px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 40%;
+  left: 600px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 40%;
+  right: 620px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+}
+
+/* Teams worked with */
+.teams {
+  width: 230px;
+  height: 230px;
+  margin-left: 120px;
+  margin-top: -150px;
+}
+
+.line {
+  width: 15px;
+  height: 200px;
+  margin-left: 200px;
+  margin-top: -100px;
+}
+
+.team-content {
+  padding-left: 100px;
+  margin-top: -100px;
+  margin-left: 100px;
+}
+
+.team-content h2 {
+  font-size: 20px;
+
+  margin-left: 150px;
+  padding: 10px 0 0px 100px;
+}
+
+.team-content h3 {
+  font-size: 20px;
+  margin-top: -210px;
+  text-align: left;
+  padding-left: 250px;
 }
 
 @media only screen and (max-width: 1700px) {

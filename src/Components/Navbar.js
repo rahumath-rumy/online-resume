@@ -8,7 +8,7 @@ import '../css/main.css';
 const Navbar = () => {
     return (
         <NavBar>
-          {/* tyle={{color: "#EE6C4D"}} */}
+       
             <ul>
                 <li><NavLink exact to= "/" className='nav' activeClassName='active-nav'> Home</NavLink></li>
                 <li><NavLink exact to="/about"  className='nav'  activeClassName='active-nav'> About Us</NavLink></li> 

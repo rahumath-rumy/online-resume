@@ -3,6 +3,9 @@ import styled from 'styled-components';
 import '../css/section.css';
 import '../css/about.css';
 import timeline from './timeline';
+import Slider from '../Components/slider';
+import { SliderData } from '../Components/certcourse';
+
 
 import { ReactComponent as WorkIcon } from "../image/work.svg";
 import { ReactComponent as SchoolIcon } from "../image/school.svg";
@@ -15,6 +18,10 @@ import "react-vertical-timeline-component/style.min.css"
 import portrait from "../image/portrait.jpg"
 import right from "../image/rightdesign.png"
 import left from "../image/leftdesign.png"
+import arrow from "../image/arrowbg.png"
+import imanacad from "../image/imanacad.png"
+import line from "../image/line.png"
+
 
 const AboutMe = () => {
   let workIconStyles = { background: "#EE6C4D" };
@@ -22,7 +29,7 @@ const AboutMe = () => {
 
     return (
         <aboutme>
-            
+            {/* About Me  */}
             <div className='container'>
                 <img src={portrait} alt='portrait' className='portrait'></img>
             </div>
@@ -42,6 +49,7 @@ const AboutMe = () => {
 
                   <h2 className='title' style={{marginTop:"-450px", paddingBottom:"100px", marginBottom:"-80px"}} >Education</h2>
           
+{/* Education Timeline */}
             <VerticalTimeline>
              {timeline.map(element => {
                  let isWorkIcon = element.icon === "work";
@@ -74,12 +82,36 @@ const AboutMe = () => {
             </VerticalTimelineElement>
        )
         })}
-      </VerticalTimeline>
+            </VerticalTimeline>
       </div>
+     
+      {/* Slider */}
       <div>
-      <h2 className='title' style={{marginTop:"100px", paddingBottom:"100px", marginBottom:"-80px"}}> Certificate Courses</h2>
+      <h2 className='title' style={{marginTop:"60px", paddingBottom:"0px", marginBottom:"0px"}}> 
+           Certificate Courses</h2>
+      
+        <Slider slides={SliderData} />
+       
       </div>
-        </aboutme>
+
+      <div>
+      <h2 className='title' style={{marginTop:"440px", paddingBottom:"50px", marginBottom:"-40px"}}> 
+           Teams I Have Worked With</h2>
+           <img src={arrow} alt='design' className='design-right'></img>
+      <img src={imanacad} alt='Iman Academy' className="teams"></img>
+      
+      <div className="team-content">
+      <img src={line} alt='Line Design' className="line"></img>
+      
+        <h3>Administration & Customer Coordinator</h3>
+        <h2>2020-2021</h2>
+
+        <h3 style={{marginTop:"70px"}}>Computer Science & Maths Educator</h3>
+        <h2>2021-2022</h2>
+      </div>
+      </div>
+
+      </aboutme>
     );
 };
 

@@ -1,4 +1,3 @@
-import degree from "../image/Degree.png"
 
 let timeline = [
   {
