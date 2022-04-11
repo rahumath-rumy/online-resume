@@ -106,7 +106,8 @@ const AboutMe = () => {
         <h3>Administration & Customer Coordinator</h3>
         <h2>2020-2021</h2>
 
-        <h3 style={{marginTop:"70px"}}>Computer Science & Maths Educator</h3>
+        <h3 style={{marginTop:"70px"}}>Computer Science Educator -> Year 04 - Ordinary Level (Edexcel) </h3>
+        <h3 style={{marginTop:"-20px"}}> Maths Educator Lower Primary</h3>
         <h2>2021-2022</h2>
       </div>
       </div>

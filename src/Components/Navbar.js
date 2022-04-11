@@ -1,8 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import { NavLink } from "react-router-dom";
-import { motion } from "framer-motion";
-import { useLocation } from "react-router-dom";
 import '../css/main.css';
 
 const Navbar = () => {
@@ -32,6 +30,7 @@ const NavBar = styled.nav`
       text-decoration:none;
       margin-top:1px;
       padding-right:1rem;
+      font-size: 20px;
   }
   
   .nav:hover {
@@ -55,6 +54,7 @@ const NavBar = styled.nav`
         position: relative;
       }
 
+  
       @media (max-width: 1300px) {
         flex-direction: column;
         padding: 0rem 0rem;
@@ -85,6 +85,41 @@ const NavBar = styled.nav`
           }
         }
       }
+
+      @media (max-width: 640px)  {
+        flex-direction: column;
+        padding: 0rem 0rem;
+        fontSize:10px;
+        
+        ul {
+          padding:0rem ;
+          justify-content: space-around;
+          
+          li {
+            padding-right:4rem;
+            text-align:center;
+           
+          }
+        }
+      }
+
+      @media (max-width: 420px) {
+        flex-direction: column;
+        padding: 0rem 0rem;
+        fontSize:10px;
+        
+        ul {
+          padding:0rem ;
+          justify-content: space-around;
+          
+          li {
+            padding-right:1rem;
+            text-align:center;
+           
+          }
+        }
+      }
+      
     `;
     
     // const Line = styled(motion.div)`

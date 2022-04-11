@@ -16,7 +16,7 @@ const Footer = () => {
               <h1 className='footerName'>Rahumath Rumy</h1>
                 
                 <a href="www.linkedin.com/in/rahumath-rumy"
-                className="linkedin social" style={{color:'white', marginLeft:'540px'}}>
+                className="linkedin social" style={{color:'white', marginLeft:'515px'}}>
                 <FontAwesomeIcon icon={faLinkedin}/>
                 </a>
     

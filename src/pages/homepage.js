@@ -7,7 +7,7 @@ import Project from '../Components/project';
 import Footer from '../Components/footer';
 import '../css/main.css'
 
-import bgImage from "../image/bg1.png"
+import bgImage from "../image/intro.png"
 
 const Home = () => {
     return (
@@ -15,7 +15,8 @@ const Home = () => {
 
     <div>
       <Navbar/>
-        <div style={{ backgroundImage: `url(${bgImage})`, backgroundSize: 'cover', marginLeft:"50px" }}>
+          <div style={{ backgroundImage: `url(${bgImage})`, backgroundSize: 'cover' , marginLeft:"30px" 
+      }}>
           <Intro/>
           <Skill/>
         </div>
