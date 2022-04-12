@@ -47,22 +47,14 @@ const Project = () => {
           </div> 
 
           <div>
-              <h2 className='title' style={{paddingTop:"500px"}}> Tools</h2>
+              <h2 className='title' style={{paddingTop:"400px"}}> Tools</h2>
                  <img src={tools} alt='tools' className='tool'></img>
           </div>
-
-          {/* <div>
-              <img src={footer} alt='tools'></img>
-          </div> */}
-
 
           </div>
         </project>
         </div>
     );
 };
-
-
-
 
 export default Project;

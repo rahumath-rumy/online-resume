@@ -1,7 +1,7 @@
-/* * {
+* {
   font-family: "Crimson Pro", san-serif;
   max-width: 99.5%;
-} */
+}
 
 .container {
   float: left;
@@ -87,7 +87,7 @@
   width: 520px;
   height: 280px;
   left: 480px;
-  top: 2343px;
+  top: 2370px;
   display: flex;
   background: linear-gradient(
     96.46deg,

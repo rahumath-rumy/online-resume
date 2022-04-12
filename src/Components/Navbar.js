@@ -6,13 +6,11 @@ import '../css/main.css';
 const Navbar = () => {
     return (
         <NavBar>
-       
             <ul>
                 <li><NavLink exact to= "/" className='nav' activeClassName='active-nav'> Home</NavLink></li>
-                <li><NavLink exact to="/about"  className='nav'  activeClassName='active-nav'> About Us</NavLink></li> 
+                <li><NavLink exact to="/about"  className='nav'  activeClassName='active-nav'> About Me</NavLink></li> 
                 <li><NavLink exact to="/contact" className='nav'  activeClassName='active-nav'>Contact</NavLink></li>
             </ul>
-
         </NavBar>
     )
 }
@@ -122,16 +120,5 @@ const NavBar = styled.nav`
       
     `;
     
-    // const Line = styled(motion.div)`
-    //   height: 0.3rem;
-    //   background: #23d997;
-    //   width: 0%;
-    //   position: absolute;
-    //   bottom: -80%;
-    //   left: 60%;
-    //   @media (max-width: 1300px) {
-    //     left: 0%;
-    //   }
-    //`;
     
 export default Navbar;

@@ -88,7 +88,7 @@ h3 {
   /* left: 0;
   bottom: 0; */
   margin-top: 800px;
-  width: 100%;
+  width: 99%;
   height: 400px;
   padding-right: 50px;
 }
@@ -103,7 +103,7 @@ h3 {
   font-weight: normal;
 }
 
-.para {
+.copyright {
   text-align: center;
   color: white;
   padding-right: -10px;

@@ -1,8 +1,7 @@
 import React from 'react';
-// import { Component } from 'react';
-import Navbar from './Components/Navbar';
 import Home from './pages/homepage';
 import About from './pages/About';
+import Contact from './pages/contact';
 import '././css/main.css'
 
 import {Route, Link} from 'react-router-dom'
@@ -14,7 +13,7 @@ function App() {
       {/* <Home/> */}
       <Route exact path="/" activeStyle={{color: "red",textDecoration:"none"}} component={Home}/>
       <Route exact path="/about" component={About}/>
-      {/* <Route exact path="/" component={contact}/> */}
+      <Route exact path="/contact" component={Contact}/>
      
     </div>
   );

@@ -6,7 +6,6 @@ import timeline from './timeline';
 import Slider from '../Components/slider';
 import { SliderData } from '../Components/certcourse';
 
-
 import { ReactComponent as WorkIcon } from "../image/work.svg";
 import { ReactComponent as SchoolIcon } from "../image/school.svg";
 
@@ -36,7 +35,8 @@ const AboutMe = () => {
 
             <div className='abtme'>
                   <h1 style={{paddingLeft:'520px', paddingTop:'50px', fontSize:'30px'}}>Get to Know Me </h1>
-                  <p style={{margin:'0px 40px 0px 500px'}}> I am a passionate person who loves coding and debugging! :)
+                  <p className="para" style={{margin:'0px 50px 0px 500px', fontSize:"18px"}}> 
+                  I am a passionate person who loves coding and debugging! :)
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                   Mauris condimentum nunc sit amet ipsum ullamcorper semper. Quisque ligula felis, 
                   suscipit viverra ex eu, fermentum feugiat arcu. Curabitur pellentesque fringilla elit,
@@ -87,7 +87,7 @@ const AboutMe = () => {
      
       {/* Slider */}
       <div>
-      <h2 className='title' style={{marginTop:"60px", paddingBottom:"0px", marginBottom:"0px"}}> 
+      <h2 className='title' style={{marginTop:"40px", paddingBottom:"0px", marginBottom:"0px"}}> 
            Certificate Courses</h2>
       
         <Slider slides={SliderData} />
@@ -106,7 +106,7 @@ const AboutMe = () => {
         <h3>Administration & Customer Coordinator</h3>
         <h2>2020-2021</h2>
 
-        <h3 style={{marginTop:"70px"}}>Computer Science Educator -> Year 04 - Ordinary Level (Edexcel) </h3>
+        <h3 style={{marginTop:"70px"}}>Computer Science Educator - Edexcel (Year 04 - Ordinary Level) </h3>
         <h3 style={{marginTop:"-20px"}}> Maths Educator Lower Primary</h3>
         <h2>2021-2022</h2>
       </div>

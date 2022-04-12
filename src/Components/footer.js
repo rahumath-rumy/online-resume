@@ -36,7 +36,7 @@ const Footer = () => {
                 </a>
 
                 <h5 className='copyright'>
-                    © 2022 Designed by Safra Rifai & Developed by Rahumath Rumy.All Rights Reserved
+                    © 2022 Designed by Safra Rifai & Developed by Rahumath Rumy. All Rights Reserved
                 </h5>
         </div>
         </footer>
