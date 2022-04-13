@@ -69,6 +69,13 @@ const NavBar = styled.nav`
       }
 
       @media (max-width: 768px) {
+
+       ul {position: relative;}
+ li {
+    
+    right: 0;
+    top: 0;
+  }
         flex-direction: column;
         padding: 0rem 0rem;
         
@@ -76,6 +83,7 @@ const NavBar = styled.nav`
           padding: 0rem ;
           justify-content: space-around;
           width: 70%;
+          position:relative;
           li {
             padding:0rem;
             text-align:center;
@@ -85,16 +93,17 @@ const NavBar = styled.nav`
       }
 
       @media (max-width: 640px)  {
+        max-width:80%;
         flex-direction: column;
         padding: 0rem 0rem;
         fontSize:10px;
         
         ul {
-          padding:0rem ;
+          padding:10px ;
           justify-content: space-around;
           
           li {
-            padding-right:4rem;
+            padding-right:10px;
             text-align:center;
            
           }

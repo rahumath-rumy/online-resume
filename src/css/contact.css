@@ -71,10 +71,83 @@ input[type="submit"]:hover {
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column,
-  input[type="submit"] {
-    width: 100%;
-    margin-top: 0;
+@media screen and (max-width: 1240px) {
+  * {
+    max-width: 99%;
+  }
+  .column1 {
+    margin-right: -90px;
+  }
+
+  input[type="text"],
+  [type="email"] {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    border: 2px solid #293241;
+    box-sizing: border-box;
+    border-radius: 20px;
+  }
+
+  .msgfield {
+    margin-left: 60px;
+    margin-top: 10px;
+    width: 80%;
+    padding: 40px;
+    border: 2px solid #293241;
+    box-sizing: border-box;
+    border-radius: 20px;
+  }
+
+  .clipart {
+    margin-top: 20px;
+    margin-left: 120px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  * {
+    max-width: 99.5%;
+  }
+
+  .column1 {
+    margin-right: 200px;
+    padding-top: 2000px;
+    margin-top: 2000px;
+  }
+
+  .h2 {
+    padding-bottom: -8000px;
+  }
+
+  input[type="text"],
+  [type="email"] {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    border: 2px solid #293241;
+    box-sizing: border-box;
+    border-radius: 20px;
+  }
+
+  .msgfield {
+    margin-left: 60px;
+    margin-top: 10px;
+    width: 80%;
+    padding: 40px;
+    border: 2px solid #293241;
+    box-sizing: border-box;
+    border-radius: 20px;
+  }
+
+  .clipart {
+    margin-top: 20px;
+    margin-left: 120px;
+    width: 200px;
+    height: 180px;
   }
 }
