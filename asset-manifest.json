@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/online-resume/static/css/main.3b4ffee2.css",
+    "main.js": "/online-resume/static/js/main.48bf05e5.js",
+    "static/media/portrait.jpg": "/online-resume/static/media/portrait.f721e9190310f8e61c16.jpg",
+    "static/media/intro.png": "/online-resume/static/media/intro.9e53274a5e57edd32e3c.png",
+    "static/media/tools.png": "/online-resume/static/media/tools.cd2c1eccfa63136c0aef.png",
+    "static/media/Footer.png": "/online-resume/static/media/Footer.7493ce07f66012d14468.png",
+    "static/media/email.png": "/online-resume/static/media/email.55817d746e94d4151ab3.png",
+    "static/media/rightdesign.png": "/online-resume/static/media/rightdesign.90a094a80a96a2b20da4.png",
+    "static/media/leftdesign.png": "/online-resume/static/media/leftdesign.a7fc45a510d82f6c9de3.png",
+    "static/media/school.svg": "/online-resume/static/media/school.a41655f6d5350015803153c7410cef6a.svg",
+    "index.html": "/online-resume/index.html",
+    "static/media/work.svg": "/online-resume/static/media/work.3710b62484ed638074240e99317c6c60.svg",
+    "main.3b4ffee2.css.map": "/online-resume/static/css/main.3b4ffee2.css.map",
+    "main.48bf05e5.js.map": "/online-resume/static/js/main.48bf05e5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b4ffee2.css",
+    "static/js/main.48bf05e5.js"
+  ]
+}
