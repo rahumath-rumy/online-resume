@@ -15,7 +15,8 @@ const Home = () => {
 
     <div>
       <Navbar/>
-          <div style={{ backgroundImage: `url(${bgImage})`, backgroundSize: 'cover' , marginLeft:"30px" 
+          <div className="introimage"
+          style={{ backgroundImage: `url(${bgImage})`, backgroundSize: 'cover' , marginLeft:"30px" 
       }}>
           <Intro/>
           <Skill/>

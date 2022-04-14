@@ -198,4 +198,11 @@
     color: rgb(44, 44, 44);
     margin-top: 1.5em;
   }
+
+  .slider{
+    display: block !important;
+    float: none !important;
+    color: rgb(44, 44, 44);
+    margin-top: 1.5em;
+  }
 }

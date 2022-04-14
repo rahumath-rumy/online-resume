@@ -3,7 +3,9 @@
   max-width: 99.5%;
   /* outline: 1px solid red; */
 }
-
+#page{
+  width:100%;
+}
 h1 {
   color: #ee6c4d;
   font-size: 42px;
@@ -126,16 +128,16 @@ a.tele {
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px)  {
   * {
     padding-left: 0px;
   }
 
   h1 {
     font-size: 20px;
-    padding-top: -500px;
+    padding-top: -100px;
     margin-top: -650px;
-  }
+  } 
 
   h2 {
     font-size: 15px;
@@ -178,4 +180,52 @@ a.tele {
     font-size: 7px;
     margin-right: 2px;
   }
+}
+
+@media (max-width: 500px) {
+ 
+
+  h1 {
+    color: #ee6c4d;
+    font-size: 20px;
+    padding-left: 0px;
+    margin-top: -10px;
+    margin-left:-10px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    padding-left: 0px;
+    margin-top: -1370px;
+    margin-left:-10px;
+    
+  }
+
+  p{
+    padding-left:0px;
+    text-align: justify;
+    font-size: 10px;
+    margin-right:-200px;
+    margin-left:-10px;
+    z-index:1;
+  }
+
+  button {
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 2px solid #ee6c4d;
+    border-radius: 20px;
+    color: #ee6c4d;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 0.3rem;
+    line-height: 1;
+    margin: 0px 0px 0px 20px;
+    padding: 1.2em 2.8em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+ 
 }

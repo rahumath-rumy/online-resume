@@ -5,6 +5,18 @@
   max-width: 99.5%;
 }
 
+.titledev {
+  color: black;
+  text-align: center;
+  margin: 50px 0px 20px -10px;
+  font-style: normal;
+  font-size: x-large;
+  font-weight: 700;
+  font-family: "Crimson Pro", san-serif;
+  color: #293241;
+  position: relative;
+}
+
 .title {
   color: black;
   text-align: center;
@@ -257,4 +269,83 @@ h3 {
     margin-left: 12px;
     padding-right: 100px;
   }
+}
+
+@media (max-width: 500px) {
+
+  .titledev {
+    color: black;
+    text-align: center;
+    margin: -1470px 0px 20px -10px;
+    font-style: normal;
+    font-size: x-large;
+    font-weight: 700;
+    font-family: "Crimson Pro", san-serif;
+    color: #293241;
+    position: relative;
+  }
+
+  .devskills {
+ margin-left:40px;
+ padding: 10px 10px 0px 20px !important;
+ text-align: left;
+}
+}
+
+@media (max-width: 400px){
+  
+  .devskills {
+  /* margin-left:40px; */
+  padding: 2px 2px 2px 12px !important;
+  font-size:2px;
+  float: left;
+  margin: 20px 40px 5px 12px;
+  width: 80px;
+  height: 20px;
+ }
+
+ .shape-rec {
+  width: 250px;
+  height: 300px;
+  background-color: #ee6c4d;
+  margin-top: 450px;
+  margin-left: 0px;
+}
+
+.proj {
+  float: left;
+  width: 250px;
+  height: 150px;
+  margin-left: 20px;
+  background: #ffffff;
+  color: black;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 20px 20px;
+  margin-bottom:-10px;
+}
+
+h3 {
+  margin-top: 10px;
+  text-align: left;
+  padding-left:10px;
+
+}
+
+.para {
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+  color: black;
+  margin: -10px 40px 0px 10px;
+  padding-left: 0px !important;
+  font-size: 10px;
+}
+.gitlink {
+  text-align: left;
+  margin-left:10px;
+  color: #3d5a80;
+  margin-top: 40px;
+  font-size: 10px;
+}
+
 }

@@ -10,7 +10,7 @@ const Skill = () => {
         <skill>
           <div className='skill'>
         
-           <h2 className='title'>My Developement Skills </h2>
+           <h2 className='titledev'>My Developement Skills </h2>
 
              <button className='devskills'> HTML </button> 
              <button className='devskills'> CSS </button>
@@ -20,7 +20,7 @@ const Skill = () => {
              <button className='devskills'> Javascript </button>
              <button className='devskills'> DJANGO </button>
              <button className='devskills'> MYSQL DB </button>
-             <button className='devskills' style={{padding:"27px 0px 2px 20px"}}> NOSQL (MONGODB)</button>
+             <button className='devskills' > MONGODB</button>
              <button className='devskills'> JAX-RS </button>
           
            </div>
