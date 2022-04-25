@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <home>
 
-    <div>
+    <div style={{maxWidth:"fit-screen"}}>
       <Navbar/>
           <div className="introimage"
           style={{ backgroundImage: `url(${bgImage})`, backgroundSize: 'cover' , marginLeft:"30px" 

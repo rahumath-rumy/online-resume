@@ -102,8 +102,19 @@ input[type="submit"]:hover {
   }
 
   .clipart {
-    margin-top: 20px;
-    margin-left: 120px;
+    margin-top: 0px;
+    margin-left: 100px;
+    width:290px;
+    height:300px;
+  }
+}
+
+@media screen and (max-width: 778px) {
+
+  .clipart{
+    width:10px !important;
+    height:10px !important;
+    margin-left:-2000px;
   }
 }
 

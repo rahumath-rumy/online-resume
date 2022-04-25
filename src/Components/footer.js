@@ -16,22 +16,22 @@ const Footer = () => {
               <h1 className='footerName'>Rahumath Rumy</h1>
                 
                 <a href="www.linkedin.com/in/rahumath-rumy"
-                className="linkedin social" style={{color:'white', marginLeft:'515px'}}>
+                className="linkedinsocial" style={{color:'white', marginLeft:'515px'}}>
                 <FontAwesomeIcon icon={faLinkedin}/>
                 </a>
     
                 <a href="https://github.com/rahumath-rumy"
-                    className="github social" style={{color:'white'}}>
+                    className="githubsocial" style={{color:'white'}}>
                     <FontAwesomeIcon icon={faGithub}/>
                 </a>
     
                 <a href="mailto:rahumath.rumy98@gmail.com"
-                    className="mail social" style={{color:'white'}}>
+                    className="mailsocial" style={{color:'white'}}>
                     <FontAwesomeIcon icon={faEnvelope} />
                 </a>
     
                 <a href="www.given/on/request"
-                    className="tele social" style={{color:'white'}}>
+                    className="telesocial" style={{color:'white'}}>
                     <FontAwesomeIcon icon={faPhone}/>
                 </a>
 
@@ -43,8 +43,5 @@ const Footer = () => {
         
     );
 };
-
-
-
 
 export default Footer;
