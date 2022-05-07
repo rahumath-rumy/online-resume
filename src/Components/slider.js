@@ -21,8 +21,8 @@ return (
    </div>
   
   <div>
-    <FaArrowAltCircleLeft className='left-arrow' onClick={() => value === 0 ? setValue(3) : setValue(value - 1)} />
-    <FaArrowAltCircleRight className='right-arrow' onClick={() => value === 3 ? setValue(0) : setValue(value + 1)} />
+    <FaArrowAltCircleLeft className='left-arrow' onClick={() => value === 0 ? setValue(4) : setValue(value - 1)} />
+    <FaArrowAltCircleRight className='right-arrow' onClick={() => value === 4 ? setValue(0) : setValue(value + 1)} />
   </div>
 
 </div>  

@@ -87,7 +87,7 @@ const AboutMe = () => {
      
       {/* Slider */}
       <div>
-      <h2 className='title' style={{marginTop:"40px", paddingBottom:"0px", marginBottom:"0px"}}> 
+      <h2 className='title' style={{marginTop:"140px", paddingBottom:"0px", marginBottom:"0px"}}> 
            Certificate Courses</h2>
       
         <Slider slides={SliderData} />
@@ -95,7 +95,7 @@ const AboutMe = () => {
       </div>
 
       <div>
-      <h2 className='title' style={{marginTop:"440px", paddingBottom:"50px", marginBottom:"-40px"}}> 
+      <h2 className='title' style={{marginTop:"480px", paddingBottom:"50px", marginBottom:"-40px"}}> 
            Teams I Have Worked With</h2>
            <img src={arrow} alt='design' className='design-right'></img>
       <img src={imanacad} alt='Iman Academy' className="teams"></img>
