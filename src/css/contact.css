@@ -8,6 +8,17 @@
   padding: 10px;
 }
 
+.talk{
+  margin:10px 0px 20px 50px; 
+  text-align:"Left";
+  /* margin: 50px 0px 20px -10px; */
+  font-style: normal;
+  font-size: x-large;
+  font-weight: 700;
+  font-family: "Crimson Pro", san-serif;
+  color: #293241;
+  /* position: relative; */
+}
 /* .column2 {
   float: left;
   width: 50%;
@@ -79,6 +90,7 @@ input[type="submit"]:hover {
     margin-right: -90px;
   }
 
+  
   input[type="text"],
   [type="email"] {
     width: 80%;
@@ -121,6 +133,10 @@ input[type="submit"]:hover {
 @media screen and (max-width: 640px) {
   * {
     max-width: 99.5%;
+  }
+
+  .talk{
+    margin-top: auto;
   }
 
   .column1 {

@@ -113,9 +113,9 @@ const NavBar = styled.nav`
         }
       }
 
-      @media (max-width: 420px) {
+      @media (max-width: 400px) {
         flex-direction: column;
-        padding: 0rem 0rem;
+        padding-left:40px;
         z-index:1;
         
         ul {

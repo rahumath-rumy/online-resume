@@ -1,10 +1,19 @@
 * {
   font-family: "Crimson Pro", san-serif;
   max-width: 99.5%;
+
   /* outline: 1px solid red; */
 }
 #page{
   width:100%;
+}
+
+.bgimage{
+  
+  width:100%;
+  height:100%;
+  margin-top: -300px;
+ 
 }
 h1 {
   color: #ee6c4d;
@@ -38,7 +47,7 @@ button {
   align-self: center;
   font-size: 1rem;
   line-height: 1;
-  margin: 0px 0px 0px 160px;
+  margin: 0px 0px 0px 200px;
   padding: 1.2em 2.8em;
   text-align: center;
   text-transform: uppercase;
@@ -53,7 +62,9 @@ button {
 }
 
 .social-container {
-  padding: 180px 0px 10px 830px;
+  padding: 0px 0px 10px 830px;
+  margin-top: -800px;
+  
 }
 
 a.social {
@@ -80,7 +91,9 @@ a.tele {
     padding-left: 0px;
     max-width: 50%;
   }
-
+  .bgimage{
+    display: none;
+  }
   h1 {
     font-size: 20px;
   }
@@ -133,9 +146,18 @@ a.tele {
     padding-left: 0px;
   }
 
+  .introimage{
+    background-image: none;
+
+  }
+
+  .bgimage{
+    display: none;
+  }
+
   h1 {
     font-size: 20px;
-    padding-top: -100px;
+    padding-top: 100px;
     margin-top: -650px;
   } 
 
@@ -184,6 +206,13 @@ a.tele {
 
 @media (max-width: 500px) {
  
+  .introimage{
+    background: none;
+  }
+
+  .bgimage{
+    display: none;
+  }
 
   h1 {
     color: #ee6c4d;
@@ -233,4 +262,61 @@ a.tele {
     color: #3d5a80;
     margin-top: 40px;
   } */
+}
+
+@media  (max-width:400px) {
+
+  *{
+    max-width: 100%;
+  }
+  .bgimage{
+    display: none;
+  }
+  h1 {
+    font-size: 25px;
+    margin-left: 25px;
+    margin-top: -100px;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-left: 25px;
+  }
+
+  p {
+    font-size: 18px;
+    padding-right: 300px;
+    text-align: justify;
+    margin-left: 25px;
+    display: flex;
+  }
+
+  button {
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 2px solid #ee6c4d;
+    border-radius: 20px;
+    color: #ee6c4d;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 10 rem;
+    line-height: 1;
+    margin: 0px 0px 0px 100px;
+    padding: 1.2em 2.8em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .CV{
+    font-size: 14px;
+  }
+  .CV:hover {
+    color: white;
+    background-color: #ee6c4d;
+    transition: width 150ms ease--out;
+    z-index: -1;
+  }
+
 }

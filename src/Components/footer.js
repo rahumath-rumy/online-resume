@@ -11,12 +11,14 @@ const Footer = () => {
     return (
         <footer>
           <div className="footer" style={{ backgroundImage: `url(${footer})`,  
-          backgroundSize: 'cover'}} > 
-            
+                 backgroundSize: 'cover'}} > 
+              
               <h1 className='footerName'>Rahumath Rumy</h1>
-                
+              
+              <div className='sociallinks'> 
+               
                 <a href="www.linkedin.com/in/rahumath-rumy"
-                className="linkedinsocial" style={{color:'white', marginLeft:'550px'}}>
+                    className="linkedinsocial" style={{color:'white', marginLeft:'550px'}}>
                 <FontAwesomeIcon icon={faLinkedin}/>
                 </a>
     
@@ -34,6 +36,7 @@ const Footer = () => {
                     className="telesocial" style={{color:'white', marginLeft:'20px'}}>
                     <FontAwesomeIcon icon={faPhone}/>
                 </a>
+                </div> 
 
                 <h5 className='copyright'>
                     © 2022 Designed by Safra Rifai & Developed by Rahumath Rumy. <br/> All Rights Reserved

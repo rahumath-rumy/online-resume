@@ -9,18 +9,24 @@ import '../css/main.css'
 
 import bgImage from "../image/intro.png"
 
+// const bgimage = new URL ("../image/intro.png", import.meta.url)
+
 const Home = () => {
     return (
         <home>
 
     <div style={{maxWidth:"fit-screen"}}>
       <Navbar/>
-          <div className="introimage"
+          {/* <div className="introimage"
           style={{ backgroundImage: `url(${bgImage})`, backgroundSize: 'cover' , marginLeft:"30px" 
-      }}>
-          <Intro/>
+      }}> */}
+     
+      <div className='col'>
+        <Intro/>
+        {/* <img src={bgimage} className="bgimage"/> */}
+      </div>
           <Skill/>
-        </div>
+      
             <br></br>
           <Project/>
         <div>

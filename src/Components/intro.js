@@ -4,13 +4,13 @@ import '../css/main.css';
 import { faPhone, faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons";
-
+const bgimage = new URL ("../image/intro.png", import.meta.url)
 
 
 const Intro = () => {
     return (
-        <intro >
-       
+        <intro>
+    
             <h2 style={{textAlign:'left'}}> Hi, I'm </h2>
             <h1> Rahumath Rumy</h1>
             <p>
@@ -20,11 +20,13 @@ const Intro = () => {
               using different technologies like HTML, CSS, Django, React, MongoDB, Java, Jaxrs, Python. I also have little experience 
               with WordPress and always looking forward to learn and implement new technologies.
               </p>
-
               <div className='button'>
                 <button className='CV'> Download CV</button>
-      
-
+              </div>
+        
+        <img src={bgimage} className="bgimage"/>
+    
+            
 <div class="social-container">
     <a href="www.linkedin.com/in/rahumath-rumy"
       className="linkedin social">
@@ -48,7 +50,6 @@ const Intro = () => {
     </a>
     </div>
 
-          </div>
 
         </intro>
     );

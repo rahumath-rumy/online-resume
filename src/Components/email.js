@@ -48,7 +48,8 @@ const Email = () => {
     return (
         <div>
         <email>
-         <h2 className='title' style={{marginTop:"10px", textAlign:"Left", marginLeft:"50px"}}>Lets' Talk </h2>
+         <h2 className='talk'>
+           Lets' Talk </h2>
 
         <div class="row">
             <div class="column1" >
