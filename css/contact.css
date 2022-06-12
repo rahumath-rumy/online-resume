@@ -1,0 +1,180 @@
+* {
+  max-width: auto;
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.talk{
+  margin:10px 0px 20px 50px; 
+  text-align:"Left";
+  /* margin: 50px 0px 20px -10px; */
+  font-style: normal;
+  font-size: x-large;
+  font-weight: 700;
+  font-family: "Crimson Pro", san-serif;
+  color: #293241;
+  /* position: relative; */
+}
+/* .column2 {
+  float: left;
+  width: 50%;
+  padding: 0px; 
+} */
+
+.label {
+  margin-left: 60px;
+  text-transform: uppercase;
+  padding-right: 20px;
+}
+
+input[type="text"],
+[type="email"] {
+  width: 60%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  border: 2px solid #293241;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.msgfield {
+  margin-left: 60px;
+  margin-top: 10px;
+  width: 60%;
+  padding: 20px;
+  border: 2px solid #293241;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+input[type="submit"] {
+  background: #ee6c4d;
+  border-radius: 30px;
+  color: white;
+  padding: 12px 20px;
+  margin: 30px 0px 0px 20px;
+  border: 2px;
+  cursor: pointer;
+  margin-left: 60px;
+}
+
+input[type="submit"]:hover {
+  background-color: #ee6c4d;
+  color: black;
+}
+
+.clipart {
+  width: 400px;
+  height: 320px;
+  margin-left: 60px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1240px) {
+  * {
+    max-width: 99%;
+  }
+  .column1 {
+    margin-right: -90px;
+  }
+
+  
+  input[type="text"],
+  [type="email"] {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    border: 2px solid #293241;
+    box-sizing: border-box;
+    border-radius: 20px;
+  }
+
+  .msgfield {
+    margin-left: 60px;
+    margin-top: 10px;
+    width: 80%;
+    padding: 40px;
+    border: 2px solid #293241;
+    box-sizing: border-box;
+    border-radius: 20px;
+  }
+
+  .clipart {
+    margin-top: 0px;
+    margin-left: 100px;
+    width:290px;
+    height:300px;
+  }
+}
+
+@media screen and (max-width: 778px) {
+
+  .clipart{
+    width:10px !important;
+    height:10px !important;
+    margin-left:-2000px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  * {
+    max-width: 99.5%;
+  }
+
+  .talk{
+    margin-top: auto;
+  }
+
+  .column1 {
+    margin-right: 200px;
+    padding-top: 2000px;
+    margin-top: 2000px;
+  }
+
+  .h2 {
+    padding-bottom: -8000px;
+  }
+
+  input[type="text"],
+  [type="email"] {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    border: 2px solid #293241;
+    box-sizing: border-box;
+    border-radius: 20px;
+  }
+
+  .msgfield {
+    margin-left: 60px;
+    margin-top: 10px;
+    width: 80%;
+    padding: 40px;
+    border: 2px solid #293241;
+    box-sizing: border-box;
+    border-radius: 20px;
+  }
+
+  .clipart {
+    margin-top: 20px;
+    margin-left: 120px;
+    width: 200px;
+    height: 180px;
+  }
+}

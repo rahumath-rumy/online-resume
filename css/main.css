@@ -1,0 +1,324 @@
+* {
+  font-family: "Crimson Pro", san-serif;
+  max-width: 99.5%;
+
+  /* outline: 1px solid red; */
+}
+#page{
+  width:100%;
+}
+
+.bgimage{
+  
+  width:100%;
+  height:100%;
+  margin-top: -300px;
+ 
+}
+h1 {
+  color: #ee6c4d;
+  font-size: 42px;
+  padding-left: 20px;
+  margin-top: -12px;
+}
+
+h2 {
+  font-size: 20px;
+  padding-left: 20px;
+  margin-top: -22px;
+}
+
+p {
+  padding-left: 20px;
+  font-size: 18px;
+  padding-right: 380px;
+  margin-right: 90px;
+  text-align: justify;
+}
+
+button {
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 2px solid #ee6c4d;
+  border-radius: 30px;
+  color: #ee6c4d;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  line-height: 1;
+  margin: 0px 0px 0px 200px;
+  padding: 1.2em 2.8em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.CV:hover {
+  color: white;
+  background-color: #ee6c4d;
+  transition: width 150ms ease--out;
+  z-index: -1;
+}
+
+.social-container {
+  padding: 0px 0px 10px 830px;
+  margin-top: -800px;
+  
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-3px);
+}
+
+a.linkedin,
+a.github,
+a.mail,
+a.tele {
+  color: #303030;
+  font-size: x-large;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1240px) {
+  * {
+    padding-left: 0px;
+    max-width: 50%;
+  }
+  .bgimage{
+    display: none;
+  }
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 15px;
+    padding-right: 300px;
+    text-align: justify;
+  }
+
+  button {
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 2px solid #ee6c4d;
+    border-radius: 20px;
+    color: #ee6c4d;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 0.5rem;
+    line-height: 1;
+    margin: 0px 0px 0px 0px;
+    padding: 1.2em 2.8em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .social-container {
+    padding: 0px 0px 5px 250px;
+    display: flex;
+  }
+
+  a.linkedin,
+  a.github,
+  a.mail,
+  a.tele {
+    color: #303030;
+    font-size: 7px;
+    margin-right: 2px;
+  }
+}
+
+@media screen and (max-width: 768px)  {
+  * {
+    padding-left: 0px;
+  }
+
+  .introimage{
+    background-image: none;
+
+  }
+
+  .bgimage{
+    display: none;
+  }
+
+  h1 {
+    font-size: 20px;
+    padding-top: 100px;
+    margin-top: -650px;
+  } 
+
+  h2 {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 15px;
+    padding-right: 300px;
+    text-align: justify;
+  }
+
+  button {
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 2px solid #ee6c4d;
+    border-radius: 20px;
+    color: #ee6c4d;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 0.5rem;
+    line-height: 1;
+    margin: 0px 0px 0px 80px;
+    padding: 1.2em 2.8em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .social-container {
+    padding: 0px 0px 5px 250px;
+    display: flex;
+  }
+
+  a.linkedin,
+  a.github,
+  a.mail,
+  a.tele {
+    color: #303030;
+    font-size: 7px;
+    margin-right: 2px;
+  }
+}
+
+@media (max-width: 500px) {
+ 
+  .introimage{
+    background: none;
+  }
+
+  .bgimage{
+    display: none;
+  }
+
+  h1 {
+    color: #ee6c4d;
+    font-size: 20px;
+    padding-left: 0px;
+    margin-top: -10px;
+    margin-left:-10px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    padding-left: 0px;
+    margin-top: -1370px;
+    margin-left:-10px;
+    
+  }
+
+  p{
+    padding-left:0px;
+    text-align: justify;
+    font-size: 10px;
+    margin-right:-400px;
+    margin-left:-10px;
+    z-index:1;
+  }
+
+  button {
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 2px solid #ee6c4d;
+    border-radius: 20px;
+    color: #ee6c4d;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 0.3rem;
+    line-height: 1;
+    margin: 0px 0px 0px 20px;
+    padding: 1.2em 2.8em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+ 
+  /* .gitlink {
+    margin-left: 325px;
+    color: #3d5a80;
+    margin-top: 40px;
+  } */
+}
+
+@media  (max-width:400px) {
+
+  *{
+    max-width: 100%;
+  }
+  .bgimage{
+    display: none;
+  }
+  h1 {
+    font-size: 25px;
+    margin-left: 25px;
+    margin-top: -100px;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-left: 25px;
+  }
+
+  p {
+    font-size: 18px;
+    padding-right: 300px;
+    text-align: justify;
+    margin-left: 25px;
+    display: flex;
+    overflow: hidden;
+    inline-size: 280px;
+  }
+
+  button {
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 2px solid #ee6c4d;
+    border-radius: 20px;
+    color: #ee6c4d;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 10 rem;
+    line-height: 1;
+    margin: 0px 0px 0px 80px;
+    padding: 1.2em 2.8em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .CV{
+    font-size: 14px;
+  }
+  .CV:hover {
+    color: white;
+    background-color: #ee6c4d;
+    transition: width 150ms ease--out;
+    z-index: -1;
+  }
+
+}
